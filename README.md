@@ -1,3 +1,3 @@
 # ColorSelectorRGB
 
-link : https://annacristyna.github.io/ColorSelectorRGB/
+Link : https://annacristyna.github.io/ColorSelectorRGB/

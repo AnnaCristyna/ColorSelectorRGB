@@ -13,6 +13,7 @@ body {
 #rgb-div {
   background-color: rgb(245, 245, 245);
   border-radius: 5%;
+  padding: 15px 100px;
 }
 .line-container {
   display: flex;

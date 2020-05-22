@@ -1,0 +1,43 @@
+body {
+  background: url('../img/pawel.jpg') no-repeat right top scroll;
+  background-size: cover;
+  font-family: 'Lucida Console', Courier, monospace;
+}
+#squar {
+  height: 60px;
+  width: 60%;
+  margin: 20px;
+  background-color: rgb(127, 127, 127);
+  display: inline-flex;
+}
+#rgb-div {
+  background-color: rgb(245, 245, 245);
+  border-radius: 5%;
+}
+.line-container {
+  display: flex;
+  /* Then we define the flow direction 
+     and if we allow the items to wrap   */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type='text'] {
+  text-align: center;
+  max-width: 80px;
+}
+input[type='range'] {
+  margin: 5px 15px;
+}
+
+/* Mouse-over effects */
+input[type='range']:focus {
+  opacity: 0.5; /* Fully shown on mouse-over */
+}
+
+label {
+  min-width: 100px;
+  font-weight: bolder;
+  font-size: medium;
+}

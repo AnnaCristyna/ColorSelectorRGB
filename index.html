@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho prático</title>
+  </head>
+  <body>
+    <div class="center" id="rgb-div">
+      <div class="line-container">
+        <label for="Range of Red"> (R) Red</label>
+        <input
+          type="range"
+          id="rangeR"
+          min="0"
+          max="255"
+          step="2"
+          value="127"
+        />
+        <input type="text" id="valueRed" value="127" disabled />
+      </div>
+      <div class="line-container">
+        <label for="Range of Green"> (G) Green</label>
+        <input
+          type="range"
+          id="rangeG"
+          min="0"
+          max="255"
+          step="2"
+          value="127"
+        />
+        <input type="text" id="valueGreen" value="127" disabled />
+      </div>
+      <div class="line-container">
+        <label for="Range of blue"> (B) Blue</label>
+        <input
+          type="range"
+          id="rangeB"
+          min="0"
+          max="255"
+          step="2"
+          value="127"
+        />
+        <input type="text" id="valueBlue" value="127" disabled />
+      </div>
+      <div id="squar" class="center"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
